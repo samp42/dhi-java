@@ -1,9 +1,9 @@
 /**
  * @project dhi
  * @author samuelproulx
- * @date 2021-10-11
+ * @date 2021-10-12
  */
 package java.dhi;
 
-public class DIO {
+public class ConstantsJNI {
 }

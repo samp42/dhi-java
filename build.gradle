@@ -24,3 +24,34 @@ test {
 wrapper {
     gradleVersion = '7.1.1'
 }
+
+/* CUSTOM TASKS */
+/*
+import org.apache.tools.ant.taskdefs.condition.Os
+import DefaultTask
+
+// sets qemu up
+class SetupVM extends DefaultTask {
+    @TaskAction
+
+}
+
+// execute tests in raspbian VM environment
+class VMTestTask extends DefaultTask {
+
+    @Input
+    String greeting = 'hello from GreetingTask'
+
+    @TaskAction
+    def launchVM() {
+        // if on Linux, launch qemu
+        if(Os.isFamily(Os.FAMILY_UNIX) && !Os.isFamily(Os.FAMILY_MAC)) {
+
+        }
+    }
+}
+
+// register custom tasks
+tasks.register('testvm', VMTestTask)
+
+*/
