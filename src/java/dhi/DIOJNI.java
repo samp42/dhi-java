@@ -5,7 +5,7 @@
  */
 package java.dhi;
 
-public class DIOJNI extends JNIWrapper {
+public class DIOJNI {
     public static native int initializeDIOPort(int halPortHandle, boolean input);
 
     public static native boolean checkDIOChannel(int channel);

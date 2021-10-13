@@ -5,7 +5,7 @@
  */
 package java.dhi;
 
-public class AnalogJNI extends JNIWrapper {
+public class AnalogJNI {
     /**
      * <i>native declaration : AthenaJava\target\native\include\HAL\Analog.h:58</i><br>
      * enum values
